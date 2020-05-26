@@ -1,0 +1,6 @@
+*.jar
+*/data
+default-private-key.txt
+LICENSE
+VERSION
+CHANGELOG.md
