@@ -18,9 +18,9 @@ To start this up, we can clone down the tx-group-ex-dirs repo.
 git clone https://github.com/fluree/tx-group-ex-dirs.git
 ```
 
-Then you can navigate to `dynamic-config-change/` directory. You'll need to download any version of Fluree (0.13 and higher) and copy `fluree_server.jar` into `dynamic-config-change/` folder: `same-folder/fluree_server.jar`.
+Then you can navigate to `dynamic-config-change/` directory. You'll need to download any version of Fluree (0.13 and higher) and copy `fluree_server.jar` into `dynamic-config-change/` folder: `dynamic-config-change/fluree_server.jar`.
 
-Now open three different terminal windows and navigate to `same-folder/` in each one. 
+Now open three different terminal windows and navigate to `dynamic-config-change/` in each one. 
 
 In each of those terminal windows, you can issue `./fluree_start.sh fluree_sample_1.properties`, `./fluree_start.sh fluree_sample_2.properties`, and `./fluree_start.sh fluree_sample_3.properties` respectively. 
 
