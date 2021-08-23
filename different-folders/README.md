@@ -4,7 +4,7 @@ You can run a transactor group on three different ports on the same server by ho
 
 Key | Fluree-1 | Fluree-2 | Fluree-3
 -- | -- | -- | -- 
-fdb-api-port | 8090 | 8091 | 8092
+fdb-api-port | 8080 | 8081 | 8082
 fdb-group-this-server | myserver1 | myserver2 | myserver3
 fdb-group-servers  | myserver1@localhost:9790,myserver2@localhost:9791,myserver3@localhost:9792 | myserver1@localhost:9790,myserver2@localhost:9791,myserver3@localhost:9792 | myserver1@localhost:9790,myserver2@localhost:9791,myserver3@localhost:9792
 
@@ -17,9 +17,9 @@ Now open three different terminal windows and navigate to `fluree-1/`, `fluree-2
 When you see a log like the below, you can `cmd + click` on the URL to open the admin UI for each server. 
 
 ```
-INFO  fluree.db.peer.http-api - Starting web server on port: 8090 with an open API.
+INFO  fluree.db.peer.http-api - Starting web server on port: 8080 with an open API.
 INFO  fluree.db.peer.http-api -
-INFO  fluree.db.peer.http-api - http://localhost:8090
+INFO  fluree.db.peer.http-api - http://localhost:8080
 INFO  fluree.db.peer.http-api -
 ```
 
